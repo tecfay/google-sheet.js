@@ -30,7 +30,7 @@ $("#request-form").submit(function(event){
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbwm9eqxSZSUf4vweXmGy7tZfEQVXpqFzib4mjBbHSCvvG61SmmV/exec",
+        url: "https://script.google.com/macros/s/AKfycbw9C5baPDcRAEWgzpghAsfk3h7yamSLoubMYGReCRp1y2WkILni/exec",
         type: "post",
         data: serializedData
     });
@@ -59,7 +59,7 @@ $("#request-form").submit(function(event){
         // Reenable the inputs
         $inputs.prop("disabled", false);
         console.log("It's running");
-        window.location.href = '/p/success.html';
+        window.location.href = 'https://tsttec.blogspot.com/';
     });
 
     // Prevent default posting of form
