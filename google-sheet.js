@@ -59,7 +59,7 @@ $("#request-form").submit(function(event){
         // Reenable the inputs
         $inputs.prop("disabled", false);
         console.log("It's running");
-        window.location.href = 'https://dreamaco.youcan.shop';
+        window.location.href = 'dreamaco.youcan.shop';
     });
 
     // Prevent default posting of form
